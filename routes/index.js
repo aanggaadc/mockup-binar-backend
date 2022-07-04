@@ -2,8 +2,9 @@ const express = require("express");
 const ROUTER = express.Router();
 const productRoutes = require('./productRoute')
 const authRoutes = require('./authRoutes')
+const verifyToken = require('../middleware/verifyToken')
 
-ROUTER.use('/v1', productRoutes)
+ROUTER.use('/v1', verifyToken, productRoutes)
 ROUTER.use('/auth', authRoutes)
 
 ROUTER.all("*", (req, res, next) => {
