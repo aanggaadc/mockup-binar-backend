@@ -1,7 +1,15 @@
+# Question No 2
+- Menggunakan  protokol https untuk pertukaran data dari mobile apps ke backend
+- Membuat user role seperti admin dan user. Admin memiliki full akses untuk melakukan berbagai hal yang berhubungan pengelolaan data, sedangkan users hanya diberikan akses ke fitur tertentu saja.
+- Membauat fitur login/logout untuk authentikasi user ke mobile apps serta menggunakan token dari JWT untuk authentikasi ke API backend
+
 # Panduan Instalasi
 
-Install paket-paket yang di perlukan dalam menjalankan aplikasi dengan perintah sebgai berikut di teriminal.
-pastikan direktori yang di akses sudah benar seperti :
+Setelah melakukan clone repository atau download zip dari repository, buka terminal dan pindah ke lokasi direktori dimana file tersebut berada dengan perintah berikut :
+```
+cd lokasi direkotri atau cd home/document/mockup-binar-backend
+```
+pastikan terminal sudah mengakses direktori benar seperti :
 ```
 home/document/mockup-binar-backend
 ```
