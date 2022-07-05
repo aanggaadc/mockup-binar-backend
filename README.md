@@ -1,7 +1,11 @@
+# Question No 1
+![design](https://user-images.githubusercontent.com/90512196/177269733-81fb2f1b-4ece-43c4-a48f-9910334be499.jpg)
+
+
 # Question No 2
-- Menggunakan  protokol https untuk pertukaran data dari mobile apps ke backend
+- Menggunakan  protokol https untuk pertukaran data dari mobile apps ke backend agar data request dan respon yang di kirimkan ke server terenkripsi.
 - Membuat user role seperti admin dan user. Admin memiliki full akses untuk melakukan berbagai hal yang berhubungan pengelolaan data, sedangkan users hanya diberikan akses ke fitur tertentu saja.
-- Membauat fitur login/logout untuk authentikasi user ke mobile apps serta menggunakan token dari JWT untuk authentikasi ke API backend
+- Membauat fitur login/logout untuk authentikasi user ke mobile apps serta menggunakan token dari JWT untuk authentikasi ke API backend agar hanya user yang terdaftar di database server yang bisa mengakses menggunakan layanan dari API backend.
 
 # Panduan Instalasi
 
